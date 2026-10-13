@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /thank-you.php
+Disallow: /*?items/
+Sitemap: https://agdmacademy.com/sitemap.xml

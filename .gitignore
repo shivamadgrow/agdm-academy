@@ -1,0 +1,6 @@
+.env
+*.env
+leads_log_*.csv
+*.zip
+.DS_Store
+Thumbs.db
