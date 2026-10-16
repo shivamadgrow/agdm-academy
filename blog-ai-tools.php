@@ -108,6 +108,17 @@ agdm_include_part('header.php');
           </div>
         </div>
       </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden blog-hover-effect">
+          <img src="assets/blog-ai-social-media-content-planning.jpg" class="card-img-top" alt="How to Use AI for Social Media Content Planning" style="height: 220px; object-fit: cover;" loading="lazy">
+          <div class="card-body d-flex flex-column p-4">
+            <span class="badge bg-danger bg-opacity-10 text-danger mb-3 align-self-start px-3 py-2 rounded-pill">Social Media &amp; AI</span>
+            <h5 class="fw-bold mb-3">How to Use AI for Social Media Content Planning</h5>
+            <p class="text-muted flex-grow-1">Learn how AI tools can streamline your content calendar, caption writing, and monthly social media strategy.</p>
+            <a href="/blog-ai-social-media-content-planning" class="text-danger fw-semibold text-decoration-none mt-3 d-inline-flex align-items-center gap-2 stretched-link">Read Article <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="text-center mt-5">
       <a href="/blogs" class="btn btn-outline-danger rounded-pill px-5 py-2 fw-bold"><i class="bi bi-grid-fill me-2"></i>View All Blogs</a>

@@ -23,7 +23,20 @@ agdm_include_part('header.php');
 <section class="py-5 bg-light">
   <div class="container py-4">
     <div class="row g-5">
-      <!-- Blog Item 1 -->
+      <!-- Blog Item 1 (Newest) -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden blog-hover-effect">
+          <img src="assets/blog-ai-social-media-content-planning.jpg" class="card-img-top" alt="How to Use AI for Social Media Content Planning" style="height: 240px; object-fit: cover;">
+          <div class="card-body d-flex flex-column p-4">
+            <span class="badge bg-danger bg-opacity-10 text-danger mb-3 align-self-start px-3 py-2 rounded-pill">Social Media &amp; AI</span>
+            <h5 class="fw-bold mb-3">How to Use AI for Social Media Content Planning</h5>
+            <p class="text-muted flex-grow-1">Learn how AI tools can streamline your content calendar, caption writing, audience targeting, and monthly social media strategy.</p>
+            <a href="blog-ai-social-media-content-planning" class="text-danger fw-semibold text-decoration-none mt-3 d-inline-flex align-items-center gap-2 stretched-link">Read Article <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog Item 2 -->
       <div class="col-lg-4 col-md-6">
         <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden blog-hover-effect">
           <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=600&auto=format&fit=crop" class="card-img-top" alt="SEO Checklist" style="height: 240px; object-fit: cover;">
@@ -36,7 +49,7 @@ agdm_include_part('header.php');
         </div>
       </div>
       
-      <!-- Blog Item 2 -->
+      <!-- Blog Item 3 -->
       <div class="col-lg-4 col-md-6">
         <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden blog-hover-effect">
           <img src="https://images.unsplash.com/photo-1533750349088-cd871a92f312?q=80&w=600&auto=format&fit=crop" class="card-img-top" alt="Meta Ads Guide" style="height: 240px; object-fit: cover;">
@@ -49,7 +62,7 @@ agdm_include_part('header.php');
         </div>
       </div>
       
-      <!-- Blog Item 3 -->
+      <!-- Blog Item 4 -->
       <div class="col-lg-4 col-md-6">
         <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden blog-hover-effect">
           <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=600&auto=format&fit=crop" class="card-img-top" alt="AI Tools" style="height: 240px; object-fit: cover;">
@@ -58,19 +71,6 @@ agdm_include_part('header.php');
             <h5 class="fw-bold mb-3">Top 10 AI Tools for Modern Marketers</h5>
             <p class="text-muted flex-grow-1">Discover the top AI tools to drastically speed up deep research, content planning, ad creatives, and reporting.</p>
             <a href="blog-ai-tools" class="text-danger fw-semibold text-decoration-none mt-3 d-inline-flex align-items-center gap-2 stretched-link">Read Article <i class="bi bi-arrow-right"></i></a>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Blog Item 4 -->
-      <div class="col-lg-4 col-md-6">
-        <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden blog-hover-effect">
-          <img src="https://images.unsplash.com/photo-1432821596592-e2c18b78144f?q=80&w=600&auto=format&fit=crop" class="card-img-top" alt="Content Marketing" style="height: 240px; object-fit: cover;">
-          <div class="card-body d-flex flex-column p-4">
-            <span class="badge bg-warning bg-opacity-10 text-warning mb-3 align-self-start px-3 py-2 rounded-pill">Content</span>
-            <h5 class="fw-bold mb-3">Mastering Content Marketing in 2026</h5>
-            <p class="text-muted flex-grow-1">Learn how to create engaging, valuable content that naturally converts casual readers into loyal brand advocates.</p>
-            <a href="#" class="text-danger fw-semibold text-decoration-none mt-3 d-inline-flex align-items-center gap-2 stretched-link">Read Article <i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
       </div>
