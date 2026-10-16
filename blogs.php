@@ -24,6 +24,24 @@ agdm_include_part('header.php');
   <div class="container py-4">
     <div class="row g-5">
       <?php
+      $rankOrganicallyScheduled = strtotime('2026-10-19 11:11:00');
+      if (time() >= $rankOrganicallyScheduled || isset($_GET['preview'])):
+      ?>
+      <!-- Scheduled Blog Item (Auto Live: Monday, Oct 19, 11:11 AM) -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden blog-hover-effect">
+          <img src="assets/blog-how-to-improve-website-rankings-on-google-organically.jpg" class="card-img-top" alt="How to Improve Website Rankings on Google Organically" style="height: 240px; object-fit: cover;">
+          <div class="card-body d-flex flex-column p-4">
+            <span class="badge bg-danger bg-opacity-10 text-danger mb-3 align-self-start px-3 py-2 rounded-pill">SEO &amp; Growth</span>
+            <h5 class="fw-bold mb-3">How to Improve Website Rankings on Google Organically</h5>
+            <p class="text-muted flex-grow-1">Learn actionable steps to rank higher on Google without paid ad spend—from keyword intent and technical fixes to local SEO.</p>
+            <a href="blog-how-to-improve-website-rankings-on-google-organically" class="text-danger fw-semibold text-decoration-none mt-3 d-inline-flex align-items-center gap-2 stretched-link">Read Article <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <?php endif; ?>
+
+      <?php
       $onPageSeoScheduled = strtotime('2026-10-17 11:11:00');
       if (time() >= $onPageSeoScheduled || isset($_GET['preview'])):
       ?>
