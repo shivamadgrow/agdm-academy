@@ -23,6 +23,24 @@ agdm_include_part('header.php');
 <section class="py-5 bg-light">
   <div class="container py-4">
     <div class="row g-5">
+      <?php
+      $onPageSeoScheduled = strtotime('2026-10-17 11:11:00');
+      if (time() >= $onPageSeoScheduled || isset($_GET['preview'])):
+      ?>
+      <!-- Scheduled Blog Item (Auto Live: Oct 17, 11:11 AM) -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden blog-hover-effect">
+          <img src="assets/blog-on-page-vs-off-page-seo.png" class="card-img-top" alt="On-Page SEO vs Off-Page SEO: Key Differences Explained" style="height: 240px; object-fit: cover;">
+          <div class="card-body d-flex flex-column p-4">
+            <span class="badge bg-danger bg-opacity-10 text-danger mb-3 align-self-start px-3 py-2 rounded-pill">SEO</span>
+            <h5 class="fw-bold mb-3">On-Page SEO vs Off-Page SEO: Key Differences</h5>
+            <p class="text-muted flex-grow-1">Learn the core differences between on-page website optimization and off-page authority building, with factor comparisons and practical examples.</p>
+            <a href="blog-on-page-vs-off-page-seo" class="text-danger fw-semibold text-decoration-none mt-3 d-inline-flex align-items-center gap-2 stretched-link">Read Article <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <?php endif; ?>
+
       <!-- Blog Item 1 (Newest) -->
       <div class="col-lg-4 col-md-6">
         <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden blog-hover-effect">
