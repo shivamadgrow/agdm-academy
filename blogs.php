@@ -24,6 +24,24 @@ agdm_include_part('header.php');
   <div class="container py-4">
     <div class="row g-5">
       <?php
+      $metaAdsBeginnersScheduled = strtotime('2026-10-20 11:11:00');
+      if (time() >= $metaAdsBeginnersScheduled || isset($_GET['preview'])):
+      ?>
+      <!-- Scheduled Blog Item (Auto Live: Tuesday, Oct 20, 11:11 AM) -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card border-0 shadow-sm rounded-4 h-100 overflow-hidden blog-hover-effect">
+          <img src="assets/blog-meta-ads-for-beginners.jpg" class="card-img-top" alt="Meta Ads for Beginners: Campaign Setup and Optimization" style="height: 240px; object-fit: cover;">
+          <div class="card-body d-flex flex-column p-4">
+            <span class="badge bg-primary bg-opacity-10 text-primary mb-3 align-self-start px-3 py-2 rounded-pill">Paid Ads</span>
+            <h5 class="fw-bold mb-3">Meta Ads for Beginners: Campaign Setup &amp; Optimization</h5>
+            <p class="text-muted flex-grow-1">A step-by-step beginner guide to Meta Ads Manager, objectives, audience targeting, budget planning, and creative testing.</p>
+            <a href="blog-meta-ads-for-beginners" class="text-danger fw-semibold text-decoration-none mt-3 d-inline-flex align-items-center gap-2 stretched-link">Read Article <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <?php endif; ?>
+
+      <?php
       $rankOrganicallyScheduled = strtotime('2026-10-19 11:11:00');
       if (time() >= $rankOrganicallyScheduled || isset($_GET['preview'])):
       ?>
